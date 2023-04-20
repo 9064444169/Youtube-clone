@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
-//import Logo from "../images/logo.png";
+import Logo from "../images/Logo.png";
 import ytLogoMobile from "../images/yt-logo-mobile.png";
 import Ankit from "../images/ankit.jpg";
 
@@ -57,7 +57,7 @@ const Header = () => {
         <Link to="/" className="flex h-5 items-center">
           <img
             className="h-full hidden dark:md:block"
-            src="https://www.mygrow.me/wp-content/uploads/2020/03/302-3020719_youtube-music-logo-png-transparent-background-youtube-logo.jpg"
+            src={Logo}
             alt="Youtube"
           />
           <img className="h-full md:hidden" src={ytLogoMobile} alt="Youtube" />
