@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
-import Logo from "../images/Logo.png";
+//import Logo from "../images/Logo.png";
 import ytLogoMobile from "../images/yt-logo-mobile.png";
 import Ankit from "../images/ankit.jpg";
 
@@ -57,7 +57,7 @@ const Header = () => {
         <Link to="/" className="flex h-5 items-center">
           <img
             className="h-full hidden dark:md:block"
-            src={Logo}
+            src={ytLogoMobile}
             alt="Youtube"
           />
           <img className="h-full md:hidden" src={ytLogoMobile} alt="Youtube" />
